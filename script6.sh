@@ -21,6 +21,8 @@ subdomain_enumeration(){
 
 	done
 }
+#calling the enumeration functon
+subdomain_enumeration
 # Count unique subdomains
 count=$(wc -l "$output_file")
 
